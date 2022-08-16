@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DCE533A2-00FA-4CCA-9037-38C670AE3DAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apis", "Apis", "{45025922-25DF-4BAB-B026-593E6FEBE718}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{6D46CBEA-2706-44C1-8CDC-52F3430528A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{DCD52A65-29DB-464B-900D-079BA1D426E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ingredient.Api", "apis\Ingredient.Api\Ingredient.Api.csproj", "{D9CCD7EC-45E5-4226-97EE-4D9E71F8B9D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCD52A65-29DB-464B-900D-079BA1D426E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCD52A65-29DB-464B-900D-079BA1D426E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCD52A65-29DB-464B-900D-079BA1D426E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD52A65-29DB-464B-900D-079BA1D426E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9CCD7EC-45E5-4226-97EE-4D9E71F8B9D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9CCD7EC-45E5-4226-97EE-4D9E71F8B9D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9CCD7EC-45E5-4226-97EE-4D9E71F8B9D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9CCD7EC-45E5-4226-97EE-4D9E71F8B9D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{45025922-25DF-4BAB-B026-593E6FEBE718} = {DCE533A2-00FA-4CCA-9037-38C670AE3DAB}
+		{6D46CBEA-2706-44C1-8CDC-52F3430528A7} = {DCE533A2-00FA-4CCA-9037-38C670AE3DAB}
+		{DCD52A65-29DB-464B-900D-079BA1D426E3} = {6D46CBEA-2706-44C1-8CDC-52F3430528A7}
+		{D9CCD7EC-45E5-4226-97EE-4D9E71F8B9D2} = {45025922-25DF-4BAB-B026-593E6FEBE718}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA05904B-BE3D-4226-A8EF-B13E525F0A1B}
+	EndGlobalSection
+EndGlobal
